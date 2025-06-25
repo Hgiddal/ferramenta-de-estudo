@@ -1,7 +1,27 @@
 body{
     background-color: rgb(128, 225, 225);
     font-family: Fondamento;
+    color: antiquewhite;
 }
+
+#container {
+    display: flex;
+}
+
+.cartao {
+    margin: 1rem 1rem;
+    background-color: rgb(153, 153, 40);
+    height: 20rem;
+    flex-grow: 1;
+    flex-basis: calc(33% - 6rem);
+}
+
+.cartao__conteudo {
+    text-align: center;
+    background-color: chartreuse;
+    height: 100%;
+}
+
 footer{
     background-color: rgb(27, 139, 139);
     color: rgb(255, 250, 250);
