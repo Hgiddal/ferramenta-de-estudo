@@ -23,7 +23,7 @@ body{
 }
 
 .cartao__conteudo h3 {
-    background-color: aquamarine;
+    background-color: rgb(45, 97, 146);
     text-align: left;
     padding: 0.5rem;
     position: absolute;
