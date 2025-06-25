@@ -4,4 +4,6 @@ body{
 footer{
     background-color: azure;
     color: rgb(132, 106, 159);
+    bottom: 0;
+    width: 100;
 }
