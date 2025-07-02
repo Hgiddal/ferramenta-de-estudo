@@ -1,8 +1,14 @@
+:root {
+    --text-color: #DBE4EF;
+    --card-front-color: #144480;
+    --card-back-color: #00F4BF;
+}
+
+
 body{
-    background: url('img/bg-desktop.webp');
-    background-color: rgb(128, 225, 225);
+     background: url('img/bg-desktop.webp');
     font-family: Fondamento;
-    color: antiquewhite;
+   
 }
 
 #container {
@@ -19,12 +25,13 @@ body{
 
 .cartao__conteudo {
     text-align: center;
-    background-color: rgb(74, 202, 224);
+    background-color: var(--card-front-color);
     height: 100%;
 }
 
 .cartao__conteudo h3 {
-    background-color: rgb(45, 97, 146);
+    color: var(--text-color);
+    border: 1px solid var(--text-color);
     text-align: left;
     padding: 0.5rem;
     position: absolute;
