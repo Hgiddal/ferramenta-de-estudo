@@ -27,3 +27,10 @@ criaCartao(
     'Quais são os principais ramos da física?',
     'Os principais ramos da física são: Mecânica, Termologia, Óptica, Ondulatória, Eletromagnetismo e Física Moderna.'
 )
+
+criaCartao(
+    'Química',
+    'Qual é a fórmula do ouro?',
+    'A fórmula do ouro é Au'
+
+)
