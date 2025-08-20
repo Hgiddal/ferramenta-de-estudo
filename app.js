@@ -14,6 +14,7 @@
                     </div>
                 </div>
                 `
+    let respostaEstaVisivel = false            
     
     function viraCartao() {
     respostaEstaVisivel = !respostaEstaVisivel
